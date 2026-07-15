@@ -1,0 +1,125 @@
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #1D9E75; border-radius: 3px; }
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+
+  /* Reduce padding on mobile */
+  div[style*="maxWidth: 860"] ,
+  div[style*="maxWidth: 960"] {
+    padding: 0.75rem !important;
+  }
+
+  /* Stack header on mobile */
+  div[style*="justifyContent: space-between"][style*="flexWrap: wrap"] {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  /* Make tabs scrollable on mobile */
+  div[style*="display: flex"][style*="flexWrap: wrap"] {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  div[style*="display: flex"][style*="flexWrap: wrap"]::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Stat cards — 2 columns on mobile */
+  div[style*="gridTemplateColumns: repeat(3,1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  div[style*="gridTemplateColumns: repeat(2,1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Smaller font sizes on mobile */
+  div[style*="fontSize: 22"] {
+    font-size: 18px !important;
+  }
+
+  div[style*="fontSize: 28"] {
+    font-size: 22px !important;
+  }
+
+  /* Full width modal */
+  div[style*="width: 320"],
+  div[style*="width: 340"] {
+    width: calc(100vw - 2rem) !important;
+    max-width: 340px;
+  }
+
+  /* Better button spacing */
+  button {
+    min-height: 36px;
+  }
+}
+
+/* Smooth transitions */
+button {
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Card hover effect */
+div[style*="borderRadius: 12"] {
+  transition: box-shadow 0.2s;
+}
+
+/* Input focus styling */
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #1D9E75 !important;
+  box-shadow: 0 0 0 3px rgba(29, 158, 117, 0.15);
+}
+
+/* Smooth tab transitions */
+div[style*="transition"] {
+  transition: background 0.3s ease;
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.loading {
+  animation: pulse 1.5s infinite;
+}
+
+/* Progress bar animation */
+@keyframes slideIn {
+  from { width: 0%; }
+  to { width: var(--target-width); }
+}

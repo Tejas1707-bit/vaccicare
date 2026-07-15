@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build folders
+build/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# Vercel / Netlify
+.vercel/
+.netlify/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
