@@ -1,23 +1,23 @@
-# 🩺 VacciCare – Kids Vaccination Management System
+# 🩺 VacciCare – Kids Vaccination Management System:-
 
 
 A full-stack web application that helps parents and healthcare administrators manage children's vaccination schedules efficiently. The system provides secure authentication, appointment management, vaccination tracking, reminders, and digital vaccination certificates.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live Demo:-
 
 🌐 **Website:** https://vaccicare-app.vercel.app/
 
 ---
 
-## 📂 GitHub Repository
+## 📂 GitHub Repository:-
 
 🔗 https://github.com/Tejas1707-bit/vaccicare
 
 ---
 
-# ✨ Features
+# ✨ Features:-
 
 - 👶 Child Registration
 - 🔐 Secure JWT Authentication
@@ -32,7 +32,7 @@ A full-stack web application that helps parents and healthcare administrators ma
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠️ Tech Stack:-
 
 ## Frontend
 
@@ -56,7 +56,7 @@ A full-stack web application that helps parents and healthcare administrators ma
 
 ---
 
-# 📁 Project Structure
+# 📁 Project Structure:-
 
 ```
 vaccicare/
@@ -136,7 +136,7 @@ EMAIL_PASS=your_password
 
 ---
 
-# 📌 Future Improvements
+# 📌 Future Improvements:-
 
 - Payment Gateway
 - Doctor Portal
@@ -147,7 +147,7 @@ EMAIL_PASS=your_password
 
 ---
 
-# 👨‍💻 Developer
+# 👨‍💻 Developer:-
 
 **Tejas Shinde**
 
