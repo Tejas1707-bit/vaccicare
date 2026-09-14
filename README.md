@@ -81,7 +81,7 @@ vaccicare/
 
 ---
 
-# ⚙️ Installation
+# ⚙️ Installation:-
 
 ### Clone the repository
 
@@ -123,7 +123,7 @@ npm start
 
 ---
 
-# 🔑 Environment Variables
+# 🔑 Environment Variables:-
 
 Create a `.env` file inside the backend folder.
 
